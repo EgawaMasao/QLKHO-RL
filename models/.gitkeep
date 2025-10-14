@@ -1,0 +1,8 @@
+# This file ensures the models/ directory is tracked by Git
+# Actual .pkl model files will be saved here after training
+
+# Example models that might be saved:
+# - q_table_inventory.pkl
+# - q_table_alpha02_gamma09.pkl  
+# - q_table_alpha05_gamma05.pkl
+# - q_table_production.pkl
