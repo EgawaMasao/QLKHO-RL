@@ -1,0 +1,96 @@
+_wandb:
+    value:
+        cli_version: 0.24.0
+        e:
+            9fvll8ixi0py62e3d57iagielu8il318:
+                codePath: c:\Study\NCKH\QLKHO-RL\Train_DQN.ipynb
+                codePathLocal: Train_DQN.ipynb
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "511095861248"
+                        used: "352062304256"
+                email: lviet2684@gmail.com
+                executable: c:\Users\lviet\AppData\Local\Programs\Python\Python310\python.exe
+                git:
+                    commit: 9df43e45bcf61ac0b1370a5fdce75945d1125619
+                    remote: https://github.com/EgawaMasao/QLKHO-RL.git
+                gpu: NVIDIA RTX A2000 Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 2560
+                      memoryTotal: "4294967296"
+                      name: NVIDIA RTX A2000 Laptop GPU
+                      uuid: GPU-ef5862d8-fb26-a347-376c-58f13b9ec556
+                host: DESKTOP-E8GIA1N
+                memory:
+                    total: "34069340160"
+                os: Windows-10-10.0.26100-SP0
+                program: c:\Study\NCKH\QLKHO-RL\Train_DQN.ipynb
+                python: CPython 3.10.11
+                root: c:\Study\NCKH\QLKHO-RL
+                startedAt: "2026-01-14T14:01:40.866443Z"
+                writerId: 9fvll8ixi0py62e3d57iagielu8il318
+        m: []
+        python_version: 3.10.11
+        t:
+            "1":
+                - 2
+                - 3
+            "2":
+                - 2
+                - 3
+            "3":
+                - 2
+                - 13
+                - 15
+                - 16
+            "4": 3.10.11
+            "5": 0.24.0
+            "8":
+                - 1
+                - 2
+                - 3
+            "10":
+                - 21
+            "12": 0.24.0
+            "13": windows-amd64
+action_dim:
+    value: 14
+algorithm:
+    value: Double DQN
+batch_size:
+    value: 64
+buffer_capacity:
+    value: 10000
+comparison:
+    value: Fair comparison with A2C
+epsilon_decay:
+    value: 0.998
+epsilon_end:
+    value: 0.01
+epsilon_start:
+    value: 1
+gamma:
+    value: 0.99
+hidden_size:
+    value: 32
+learning_rate:
+    value: 0.001
+num_episodes:
+    value: 600
+num_products:
+    value: 220
+num_timesteps:
+    value: 900
+save_freq:
+    value: 50
+state_dim:
+    value: 3
+update_target_freq:
+    value: 10
+waste_rate:
+    value: 0.025
